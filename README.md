@@ -1,5 +1,5 @@
 # tiny-ILS
-*A very small library system intended to run on a pi and use NFC to manage log in and book checked out material. A catalogue will follow later on.
+*A very small library system intended to run on a pi and use NFC to manage log in and book checked out material. A catalogue will follow later on.*
 
 The name is still subject to change.
 This system will be designed to run on a Raspberry Pi 2 Model B.
