@@ -17,3 +17,6 @@ The system is supposed to be very simple and low barrier of use at first. The pi
 *The name is WiP. Not all of them are books.*
 Fields are going to be: title, publishing house, author, year, edition, number of the copy, borrower, timestamp borrowed, timestamp returned.
 Publishing house being more important than the author due to textbooks being written in committee and bigger differences existing between publishers.
+
+#Join table
+This one matches the users with the books borrowed and the dates.
