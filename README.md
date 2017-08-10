@@ -26,6 +26,6 @@ The Pi will have a some form of screen attached and a simple 1D barcode scanner.
 None that work easily on a Raspberry Pi.
 
 ## Technologies used
-- MySQL
+- PostgreSQL
 - Python
 - HTML
