@@ -7,6 +7,23 @@ from django.http import HttpRequest
 from django.template import RequestContext
 from datetime import datetime
 
+
+#ILS views
+
+def ils_login(request):
+    """Renders the ILS login page."""
+    return render(
+        request,
+        'ils/LoginScreen.html',
+        {
+            'title':'ILS Login Page',
+            'year':datetime.now().year,
+        }
+    )  
+
+
+#default django views
+
 def home(request):
     """Renders the home page."""
     assert isinstance(request, HttpRequest)

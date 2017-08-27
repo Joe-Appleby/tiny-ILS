@@ -51,15 +51,16 @@
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
+    <Folder Include="app\templates\ils\" />
     <Folder Include="TinyILS\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\LoginScreen.html" />
+    <Content Include="app\templates\ils\LoginScreen.html" />
     <Content Include="app\stylesheet.css" />
-    <Content Include="app\LoginSuccess.html" />
-    <Content Include="app\CheckOut.html" />
-    <Content Include="app\ReturnBook.html" />
-    <Content Include="app\Admin.html" />
+    <Content Include="app\templates\ils\LoginSuccess.html" />
+    <Content Include="app\templates\ils\CheckOut.html" />
+    <Content Include="app\templates\ils\ReturnBook.html" />
+    <Content Include="app\templates\ils\Admin.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

@@ -15,7 +15,14 @@ import app.views
 # admin.autodiscover()
 
 urlpatterns = [
-    # Examples:
+
+
+    # ILS pages
+    
+    url(r'^ils_login/$', app.views.ils_login, name='ils_login'),
+
+
+    # Examples (default django pages):
     url(r'^$', app.views.home, name='home'),
     url(r'^contact$', app.views.contact, name='contact'),
     url(r'^about', app.views.about, name='about'),
